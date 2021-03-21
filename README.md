@@ -1,24 +1,31 @@
-# atomic-design
+# Atomic Design
 
-## Project setup
+In this project, the goal was introduce to Atomic Design using Vuejs
+
+# In this project i learned:
+
+- How create my own snippet of vscode
+
+# Clone this repository
+
 ```
+
+git clone
+
+```
+
+## Install the dependencies
+
+```
+
 npm install
+
 ```
 
-### Compiles and hot-reloads for development
+### Run on your local machine
+
 ```
+
 npm run serve
-```
 
-### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
