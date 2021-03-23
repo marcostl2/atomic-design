@@ -1,12 +1,7 @@
 <template>
   <div class="presentation">
-    <SocialNetworks />
-    <!-- <img
-      class="presentation"
-      src="@/assets/images/presentation.svg"
-      alt="Apresentação"
-    /> -->
     <PresentationImg />
+    <SocialNetworks />
   </div>
 </template>
 
@@ -24,6 +19,7 @@ export default defineComponent({
 .presentation {
   position: relative;
   display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
 
   .social-networks {
@@ -36,11 +32,13 @@ export default defineComponent({
 
 @media screen and(max-width:980px) {
   .presentation {
-    grid-template-columns: 1fr;
+    // grid-template-columns: auto;
+    flex-direction: column;
+    justify-content: space-around;
 
     .social-networks {
       position: relative;
-      grid-row: 3;
+      // grid-row: 3;
     }
   }
 }

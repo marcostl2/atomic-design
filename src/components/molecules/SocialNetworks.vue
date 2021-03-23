@@ -44,7 +44,7 @@ export default defineComponent({
 }
 @media screen and(max-width:420px) {
   .social-networks {
-    padding: 32px 0;
+    padding: 16px 0;
   }
 }
 </style>

@@ -25,6 +25,7 @@ export default defineComponent({
 <style lang="scss" scoped>
 .home-template {
   margin: 5rem auto;
+  max-width: 1366px;
   display: grid;
   grid-gap: 5rem;
 }

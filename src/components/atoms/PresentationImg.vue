@@ -1,10 +1,8 @@
 <template>
-  <!-- width="952.284" -->
-  <!-- height="468.676" -->
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="80vw"
+    width="100%"
     height="468.676"
     viewBox="0 0 952.284 468.676"
     class="presentation-img"
@@ -1094,6 +1092,7 @@ export default defineComponent({});
 @media screen and(max-width:420px) {
   .presentation-img {
     height: 160px;
+    // margin-bottom: 48px;
   }
 }
 </style>
